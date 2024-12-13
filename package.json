@@ -1,0 +1,41 @@
+{
+  "name": "@hoboy/micromark-extension-html-tag",
+  "version": "1.0.0",
+  "description": "micromark extension for parsehtml tag",
+  "main": "dist/index.mjs",
+  "types": "dist/index.d.mts",
+  "exports": {
+    ".": "./dist/index.mjs",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "test": "vitest"
+  },
+  "keywords": [
+    "micromark",
+    "extension",
+    "html-tag"
+  ],
+  "files": [
+    "dist/"
+  ],
+  "author": "liujinghan",
+  "license": "MIT",
+  "dependencies": {
+    "micromark-util-types": "^2.0.1"
+  },
+  "devDependencies": {
+    "micromark": "^4.0.1",
+    "type-coverage": "^2.29.7",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3",
+    "vitest": "^2.1.1"
+  },
+  "typeCoverage": {
+    "atLeast": 100,
+    "detail": true,
+    "ignoreCatch": true,
+    "strict": true
+  }
+}

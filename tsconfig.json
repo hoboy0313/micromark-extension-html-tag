@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "checkJs": true,
+      "customConditions": ["development"],
+      "declaration": true,
+      "emitDeclarationOnly": true,
+      "declarationDir": "./dist",
+      "exactOptionalPropertyTypes": true,
+      "lib": ["es2022"],
+      "target": "es2022",
+      "module": "NodeNext",
+      "skipLibCheck": true,
+      "strict": true
+    },
+    "include": ["src/**/*.ts", "src/**/*.mts"],
+    "exclude": ["coverage/", "node_modules/"]
+}
